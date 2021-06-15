@@ -1,0 +1,9 @@
+CS 101 - SECTION 2
+Nisa Yılmaz 22001849
+12/2/2021
+Time spent on the exercise : 56 minutes
+Status of the code : working
+
+The part about this project was understanding the code I was send and then putting them together because a lot of things were repeated or missing (such as properties or bodies of methods). I had to change the wordlist from an array list initialized in the constructor (because the project directions mention a fixed list which I thought an array would be more suitable & initializing the array in the constructor caused a NullPointerExeption) to an array initialized globally. For visual purposes I added some lines to the main method to seperate each loop so the user can see the lines easily. I also changed the isOver method so it can also detect if the player guesses the word right and end the game. I added a loop in order to initialize the knownSoFar with "*" in the length of secret word. I added some parts to the tryThis method so it can replace the default set "*" of the knownSoFar with the input character if it exists. I also added some comments to make the code more understandble. Unfotunately I couldn'tget the code to return -2 when a letter is guessed more than once
+
+I believe the reason of these problems were mainly the lack of communication between the team members of the tasks, and having to write the code without seeing the rest of it(for example writing the constructor  without knowing the rest of the hangman class.) These kind of problems can be solved by maintaining communication between the team members or using a self documentation system where every member can explain everything they did and the problems they faced because reading such a documentation is easier than trying to understand code writen by others.
